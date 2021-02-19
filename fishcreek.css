@@ -3,13 +3,19 @@ body { background-color: #FFFFFF;
 	  font-family: Verdana, Arial, sans-serif;
 }
 header { background-color: #003366;
-       color: #AEC3E3;
+        text-align:center;
+       color: #F0F0F0;
 	   font-family: Georgia, "Times New Roman", serif;
 }
-h1 { line-height: 200%; 
+h1 { line-height: 250%; 
     text-indent: 1em;}
-nav { font-weight: bold; }
+nav { font-weight: bold;
+        text-align: center;
+        background-color: #5280c5;
+        padding: 5px;
+}
 .category { font-weight: bold;
+            text-shadow: 1px 1px 1px #667;
 			color: #5280C5;
 			 font-family: Georgia, "Times New Roman", serif; 
 }
@@ -19,10 +25,17 @@ dt { font-weight: bold;
      font-family: Georgia, "Times New Roman", serif;	 
 }
 footer { font-size: .70em;
+        text-align: center;
+        background-color: #AEC3E3;
        font-style: italic;
 }		
-#wrapper { width: 80%;
+#wrapper { min-width: 700px;
            margin-right: auto;
 		   margin-left: auto;
 		   background-color: #F0F0F0;
+}
+img {border: none;
+}
+main {padding-left: 10px;
+        padding-right: 10px;
 }
